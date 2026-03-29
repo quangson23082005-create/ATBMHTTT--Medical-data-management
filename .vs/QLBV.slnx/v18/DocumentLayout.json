@@ -1,38 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\",
+  "WorkspaceRootPath": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\qlbv\\extensions\\datatableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:qlbv\\extensions\\datatableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,106 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "fLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fLogin.cs",
-              "RelativeDocumentMoniker": "fLogin.cs",
-              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fLogin.cs [Design]",
-              "RelativeToolTip": "fLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T17:17:14.003Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "fAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fAdmin.cs",
-              "RelativeDocumentMoniker": "fAdmin.cs",
-              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fAdmin.cs",
-              "RelativeToolTip": "fAdmin.cs",
-              "ViewState": "AgIAAGsCAAAAAAAAAAAewHYCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:36:47.166Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "fAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fAdmin.cs",
-              "RelativeDocumentMoniker": "fAdmin.cs",
-              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fAdmin.cs [Design]",
-              "RelativeToolTip": "fAdmin.cs [Design]",
+              "Title": "fAdmin.Designer.cs",
+              "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "fAdmin.Designer.cs",
+              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fAdmin.Designer.cs",
+              "RelativeToolTip": "fAdmin.Designer.cs",
+              "ViewState": "AgIAAH8CAAAAAAAAAAAAALUCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T16:36:37.252Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-29T19:50:09.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AccountDAO.cs",
-              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DAO\\AccountDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
-              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DAO\\AccountDAO.cs",
-              "RelativeToolTip": "DAO\\AccountDAO.cs",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAYwBwBAAABAAAAAAAAAA==",
+              "Title": "DataTableExtensions.cs",
+              "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\QLBV\\Extensions\\DataTableExtensions.cs",
+              "RelativeDocumentMoniker": "QLBV\\Extensions\\DataTableExtensions.cs",
+              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\QLBV\\Extensions\\DataTableExtensions.cs",
+              "RelativeToolTip": "QLBV\\Extensions\\DataTableExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T01:35:43.69Z",
+              "WhenOpened": "2026-03-29T19:04:38.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataProvider.cs",
-              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DAO\\DataProvider.cs",
-              "RelativeDocumentMoniker": "DAO\\DataProvider.cs",
-              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DAO\\DataProvider.cs",
-              "RelativeToolTip": "DAO\\DataProvider.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAA5wIsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
+              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "DAO\\AccountDAO.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAIwAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T14:32:22.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoleDTO.cs",
-              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DTO\\RoleDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\RoleDTO.cs",
-              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DTO\\RoleDTO.cs",
-              "RelativeToolTip": "DTO\\RoleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T03:32:56.506Z"
+              "WhenOpened": "2026-03-29T18:46:17.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "fLogin.cs",
-              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fLogin.cs",
-              "RelativeDocumentMoniker": "fLogin.cs",
-              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fLogin.cs",
-              "RelativeToolTip": "fLogin.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAmwCcAAAAcAAAAAAAAAA==",
+              "Title": "fAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fAdmin.cs",
+              "RelativeDocumentMoniker": "fAdmin.cs",
+              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fAdmin.cs [Design]",
+              "RelativeToolTip": "fAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T13:27:49.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T18:16:35.2Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DTO\\UserDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DTO\\UserDTO.cs",
-              "RelativeToolTip": "DTO\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "fAdmin.cs",
+              "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fAdmin.cs",
+              "RelativeDocumentMoniker": "fAdmin.cs",
+              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fAdmin.cs",
+              "RelativeToolTip": "fAdmin.cs",
+              "ViewState": "AgIAAGkBAAAAAAAAAADwv80BAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T03:32:42.341Z"
+              "WhenOpened": "2026-03-29T18:15:37.019Z",
+              "EditorCaption": ""
             }
           ]
         }

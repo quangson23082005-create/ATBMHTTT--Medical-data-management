@@ -37,6 +37,13 @@
             this.bUserInsert = new System.Windows.Forms.Button();
             this.tpRole = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btn_search3 = new System.Windows.Forms.Button();
+            this.txtBox_searchBox3 = new System.Windows.Forms.TextBox();
+            this.lb_choose_role = new System.Windows.Forms.Label();
+            this.btn_revoke3 = new System.Windows.Forms.Button();
+            this.cb_role3 = new System.Windows.Forms.ComboBox();
+            this.btn_grant3 = new System.Windows.Forms.Button();
+            this.dtgvUserRole = new System.Windows.Forms.DataGridView();
             this.dtgvRole = new System.Windows.Forms.DataGridView();
             this.bRoleUpdate = new System.Windows.Forms.Button();
             this.bRoleDelete = new System.Windows.Forms.Button();
@@ -56,41 +63,35 @@
             this.rb_user = new System.Windows.Forms.RadioButton();
             this.dtgvPrivileges = new System.Windows.Forms.DataGridView();
             this.tpFunc_proc = new System.Windows.Forms.TabPage();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.dtgvPrivileges2 = new System.Windows.Forms.DataGridView();
-            this.txtBox_searchBox2 = new System.Windows.Forms.TextBox();
-            this.btn_search2 = new System.Windows.Forms.Button();
-            this.cb_chooseItem2 = new System.Windows.Forms.ComboBox();
-            this.btn_grant2 = new System.Windows.Forms.Button();
             this.btn_revoke2 = new System.Windows.Forms.Button();
-            this.rb_user2 = new System.Windows.Forms.RadioButton();
+            this.btn_grant2 = new System.Windows.Forms.Button();
+            this.cb_chooseItem2 = new System.Windows.Forms.ComboBox();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.rb_role2 = new System.Windows.Forms.RadioButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btn_grant3 = new System.Windows.Forms.Button();
-            this.cb_role3 = new System.Windows.Forms.ComboBox();
-            this.btn_revoke3 = new System.Windows.Forms.Button();
-            this.rb_fitter_user = new System.Windows.Forms.RadioButton();
-            this.lb_choose_role = new System.Windows.Forms.Label();
-            this.txtBox_searchBox3 = new System.Windows.Forms.TextBox();
-            this.btn_search3 = new System.Windows.Forms.Button();
-            this.cb_selectUserByPos = new System.Windows.Forms.ComboBox();
+            this.rb_user2 = new System.Windows.Forms.RadioButton();
+            this.btn_search2 = new System.Windows.Forms.Button();
+            this.txtBox_searchBox2 = new System.Windows.Forms.TextBox();
+            this.dtgvPrivileges2 = new System.Windows.Forms.DataGridView();
+            this.cbFitterUser = new System.Windows.Forms.CheckBox();
+            this.txbSearchUser = new System.Windows.Forms.TextBox();
+            this.bSearchUser = new System.Windows.Forms.Button();
             this.tcRole.SuspendLayout();
             this.tpUser.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvUser)).BeginInit();
             this.tpRole.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvUserRole)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvRole)).BeginInit();
             this.tpPrivilege.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPrivileges)).BeginInit();
             this.tpFunc_proc.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPrivileges2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // tcRole
@@ -120,6 +121,8 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.bSearchUser);
+            this.panel1.Controls.Add(this.txbSearchUser);
             this.panel1.Controls.Add(this.dtgvUser);
             this.panel1.Controls.Add(this.bUserUpdate);
             this.panel1.Controls.Add(this.bUserDelete);
@@ -133,17 +136,18 @@
             // dtgvUser
             // 
             this.dtgvUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvUser.Location = new System.Drawing.Point(25, 120);
+            this.dtgvUser.Location = new System.Drawing.Point(46, 118);
             this.dtgvUser.Name = "dtgvUser";
             this.dtgvUser.RowHeadersWidth = 51;
             this.dtgvUser.RowTemplate.Height = 24;
-            this.dtgvUser.Size = new System.Drawing.Size(440, 276);
+            this.dtgvUser.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgvUser.Size = new System.Drawing.Size(824, 276);
             this.dtgvUser.TabIndex = 3;
             this.dtgvUser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvUser_CellContentClick);
             // 
             // bUserUpdate
             // 
-            this.bUserUpdate.Location = new System.Drawing.Point(375, 23);
+            this.bUserUpdate.Location = new System.Drawing.Point(387, 23);
             this.bUserUpdate.Name = "bUserUpdate";
             this.bUserUpdate.Size = new System.Drawing.Size(105, 62);
             this.bUserUpdate.TabIndex = 2;
@@ -153,7 +157,7 @@
             // 
             // bUserDelete
             // 
-            this.bUserDelete.Location = new System.Drawing.Point(190, 23);
+            this.bUserDelete.Location = new System.Drawing.Point(212, 23);
             this.bUserDelete.Name = "bUserDelete";
             this.bUserDelete.Size = new System.Drawing.Size(105, 62);
             this.bUserDelete.TabIndex = 1;
@@ -163,7 +167,7 @@
             // 
             // bUserInsert
             // 
-            this.bUserInsert.Location = new System.Drawing.Point(25, 23);
+            this.bUserInsert.Location = new System.Drawing.Point(46, 23);
             this.bUserInsert.Name = "bUserInsert";
             this.bUserInsert.Size = new System.Drawing.Size(105, 62);
             this.bUserInsert.TabIndex = 0;
@@ -185,15 +189,14 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.cb_selectUserByPos);
+            this.panel2.Controls.Add(this.cbFitterUser);
             this.panel2.Controls.Add(this.btn_search3);
             this.panel2.Controls.Add(this.txtBox_searchBox3);
             this.panel2.Controls.Add(this.lb_choose_role);
-            this.panel2.Controls.Add(this.rb_fitter_user);
             this.panel2.Controls.Add(this.btn_revoke3);
             this.panel2.Controls.Add(this.cb_role3);
             this.panel2.Controls.Add(this.btn_grant3);
-            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.dtgvUserRole);
             this.panel2.Controls.Add(this.dtgvRole);
             this.panel2.Controls.Add(this.bRoleUpdate);
             this.panel2.Controls.Add(this.bRoleDelete);
@@ -203,6 +206,70 @@
             this.panel2.Size = new System.Drawing.Size(947, 413);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // btn_search3
+            // 
+            this.btn_search3.Location = new System.Drawing.Point(549, 53);
+            this.btn_search3.Name = "btn_search3";
+            this.btn_search3.Size = new System.Drawing.Size(75, 23);
+            this.btn_search3.TabIndex = 12;
+            this.btn_search3.Text = "Tìm";
+            this.btn_search3.UseVisualStyleBackColor = true;
+            // 
+            // txtBox_searchBox3
+            // 
+            this.txtBox_searchBox3.Location = new System.Drawing.Point(334, 53);
+            this.txtBox_searchBox3.Name = "txtBox_searchBox3";
+            this.txtBox_searchBox3.Size = new System.Drawing.Size(209, 22);
+            this.txtBox_searchBox3.TabIndex = 11;
+            // 
+            // lb_choose_role
+            // 
+            this.lb_choose_role.AutoSize = true;
+            this.lb_choose_role.Location = new System.Drawing.Point(767, 167);
+            this.lb_choose_role.Name = "lb_choose_role";
+            this.lb_choose_role.Size = new System.Drawing.Size(64, 16);
+            this.lb_choose_role.TabIndex = 10;
+            this.lb_choose_role.Text = "Chọn role";
+            this.lb_choose_role.Click += new System.EventHandler(this.lb_choose_role_Click);
+            // 
+            // btn_revoke3
+            // 
+            this.btn_revoke3.Location = new System.Drawing.Point(821, 246);
+            this.btn_revoke3.Name = "btn_revoke3";
+            this.btn_revoke3.Size = new System.Drawing.Size(86, 42);
+            this.btn_revoke3.TabIndex = 8;
+            this.btn_revoke3.Text = "Thu hồi";
+            this.btn_revoke3.UseVisualStyleBackColor = true;
+            this.btn_revoke3.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // cb_role3
+            // 
+            this.cb_role3.FormattingEnabled = true;
+            this.cb_role3.Location = new System.Drawing.Point(770, 197);
+            this.cb_role3.Name = "cb_role3";
+            this.cb_role3.Size = new System.Drawing.Size(165, 24);
+            this.cb_role3.TabIndex = 7;
+            // 
+            // btn_grant3
+            // 
+            this.btn_grant3.Location = new System.Drawing.Point(821, 312);
+            this.btn_grant3.Name = "btn_grant3";
+            this.btn_grant3.Size = new System.Drawing.Size(86, 42);
+            this.btn_grant3.TabIndex = 6;
+            this.btn_grant3.Text = "Gán";
+            this.btn_grant3.UseVisualStyleBackColor = true;
+            // 
+            // dtgvUserRole
+            // 
+            this.dtgvUserRole.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvUserRole.Location = new System.Drawing.Point(334, 120);
+            this.dtgvUserRole.Name = "dtgvUserRole";
+            this.dtgvUserRole.RowHeadersWidth = 51;
+            this.dtgvUserRole.RowTemplate.Height = 24;
+            this.dtgvUserRole.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgvUserRole.Size = new System.Drawing.Size(420, 276);
+            this.dtgvUserRole.TabIndex = 4;
             // 
             // dtgvRole
             // 
@@ -416,6 +483,42 @@
             this.tpFunc_proc.UseVisualStyleBackColor = true;
             this.tpFunc_proc.Click += new System.EventHandler(this.tpFunc_proc_Click);
             // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.btn_revoke2);
+            this.panel6.Controls.Add(this.btn_grant2);
+            this.panel6.Controls.Add(this.cb_chooseItem2);
+            this.panel6.Location = new System.Drawing.Point(691, 6);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(287, 444);
+            this.panel6.TabIndex = 1;
+            // 
+            // btn_revoke2
+            // 
+            this.btn_revoke2.Location = new System.Drawing.Point(163, 407);
+            this.btn_revoke2.Name = "btn_revoke2";
+            this.btn_revoke2.Size = new System.Drawing.Size(75, 23);
+            this.btn_revoke2.TabIndex = 2;
+            this.btn_revoke2.Text = "Revoke";
+            this.btn_revoke2.UseVisualStyleBackColor = true;
+            // 
+            // btn_grant2
+            // 
+            this.btn_grant2.Location = new System.Drawing.Point(55, 407);
+            this.btn_grant2.Name = "btn_grant2";
+            this.btn_grant2.Size = new System.Drawing.Size(75, 23);
+            this.btn_grant2.TabIndex = 1;
+            this.btn_grant2.Text = "Grant";
+            this.btn_grant2.UseVisualStyleBackColor = true;
+            // 
+            // cb_chooseItem2
+            // 
+            this.cb_chooseItem2.FormattingEnabled = true;
+            this.cb_chooseItem2.Location = new System.Drawing.Point(16, 20);
+            this.cb_chooseItem2.Name = "cb_chooseItem2";
+            this.cb_chooseItem2.Size = new System.Drawing.Size(250, 24);
+            this.cb_chooseItem2.TabIndex = 0;
+            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.rb_role2);
@@ -428,67 +531,16 @@
             this.panel5.Size = new System.Drawing.Size(679, 444);
             this.panel5.TabIndex = 0;
             // 
-            // panel6
+            // rb_role2
             // 
-            this.panel6.Controls.Add(this.btn_revoke2);
-            this.panel6.Controls.Add(this.btn_grant2);
-            this.panel6.Controls.Add(this.cb_chooseItem2);
-            this.panel6.Location = new System.Drawing.Point(691, 6);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(287, 444);
-            this.panel6.TabIndex = 1;
-            // 
-            // dtgvPrivileges2
-            // 
-            this.dtgvPrivileges2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvPrivileges2.Location = new System.Drawing.Point(3, 65);
-            this.dtgvPrivileges2.Name = "dtgvPrivileges2";
-            this.dtgvPrivileges2.RowHeadersWidth = 51;
-            this.dtgvPrivileges2.RowTemplate.Height = 24;
-            this.dtgvPrivileges2.Size = new System.Drawing.Size(673, 376);
-            this.dtgvPrivileges2.TabIndex = 0;
-            // 
-            // txtBox_searchBox2
-            // 
-            this.txtBox_searchBox2.Location = new System.Drawing.Point(15, 22);
-            this.txtBox_searchBox2.Name = "txtBox_searchBox2";
-            this.txtBox_searchBox2.Size = new System.Drawing.Size(282, 22);
-            this.txtBox_searchBox2.TabIndex = 1;
-            // 
-            // btn_search2
-            // 
-            this.btn_search2.Location = new System.Drawing.Point(315, 22);
-            this.btn_search2.Name = "btn_search2";
-            this.btn_search2.Size = new System.Drawing.Size(75, 23);
-            this.btn_search2.TabIndex = 2;
-            this.btn_search2.Text = "Tìm";
-            this.btn_search2.UseVisualStyleBackColor = true;
-            // 
-            // cb_chooseItem2
-            // 
-            this.cb_chooseItem2.FormattingEnabled = true;
-            this.cb_chooseItem2.Location = new System.Drawing.Point(16, 20);
-            this.cb_chooseItem2.Name = "cb_chooseItem2";
-            this.cb_chooseItem2.Size = new System.Drawing.Size(250, 24);
-            this.cb_chooseItem2.TabIndex = 0;
-            // 
-            // btn_grant2
-            // 
-            this.btn_grant2.Location = new System.Drawing.Point(55, 407);
-            this.btn_grant2.Name = "btn_grant2";
-            this.btn_grant2.Size = new System.Drawing.Size(75, 23);
-            this.btn_grant2.TabIndex = 1;
-            this.btn_grant2.Text = "Grant";
-            this.btn_grant2.UseVisualStyleBackColor = true;
-            // 
-            // btn_revoke2
-            // 
-            this.btn_revoke2.Location = new System.Drawing.Point(163, 407);
-            this.btn_revoke2.Name = "btn_revoke2";
-            this.btn_revoke2.Size = new System.Drawing.Size(75, 23);
-            this.btn_revoke2.TabIndex = 2;
-            this.btn_revoke2.Text = "Revoke";
-            this.btn_revoke2.UseVisualStyleBackColor = true;
+            this.rb_role2.AutoSize = true;
+            this.rb_role2.Location = new System.Drawing.Point(573, 29);
+            this.rb_role2.Name = "rb_role2";
+            this.rb_role2.Size = new System.Drawing.Size(57, 20);
+            this.rb_role2.TabIndex = 4;
+            this.rb_role2.TabStop = true;
+            this.rb_role2.Text = "Role";
+            this.rb_role2.UseVisualStyleBackColor = true;
             // 
             // rb_user2
             // 
@@ -501,98 +553,58 @@
             this.rb_user2.Text = "User";
             this.rb_user2.UseVisualStyleBackColor = true;
             // 
-            // rb_role2
+            // btn_search2
             // 
-            this.rb_role2.AutoSize = true;
-            this.rb_role2.Location = new System.Drawing.Point(573, 29);
-            this.rb_role2.Name = "rb_role2";
-            this.rb_role2.Size = new System.Drawing.Size(57, 20);
-            this.rb_role2.TabIndex = 4;
-            this.rb_role2.TabStop = true;
-            this.rb_role2.Text = "Role";
-            this.rb_role2.UseVisualStyleBackColor = true;
+            this.btn_search2.Location = new System.Drawing.Point(315, 22);
+            this.btn_search2.Name = "btn_search2";
+            this.btn_search2.Size = new System.Drawing.Size(75, 23);
+            this.btn_search2.TabIndex = 2;
+            this.btn_search2.Text = "Tìm";
+            this.btn_search2.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // txtBox_searchBox2
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(334, 120);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(420, 276);
-            this.dataGridView1.TabIndex = 4;
+            this.txtBox_searchBox2.Location = new System.Drawing.Point(15, 22);
+            this.txtBox_searchBox2.Name = "txtBox_searchBox2";
+            this.txtBox_searchBox2.Size = new System.Drawing.Size(282, 22);
+            this.txtBox_searchBox2.TabIndex = 1;
             // 
-            // btn_grant3
+            // dtgvPrivileges2
             // 
-            this.btn_grant3.Location = new System.Drawing.Point(821, 312);
-            this.btn_grant3.Name = "btn_grant3";
-            this.btn_grant3.Size = new System.Drawing.Size(86, 42);
-            this.btn_grant3.TabIndex = 6;
-            this.btn_grant3.Text = "Gán";
-            this.btn_grant3.UseVisualStyleBackColor = true;
+            this.dtgvPrivileges2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvPrivileges2.Location = new System.Drawing.Point(3, 65);
+            this.dtgvPrivileges2.Name = "dtgvPrivileges2";
+            this.dtgvPrivileges2.RowHeadersWidth = 51;
+            this.dtgvPrivileges2.RowTemplate.Height = 24;
+            this.dtgvPrivileges2.Size = new System.Drawing.Size(673, 376);
+            this.dtgvPrivileges2.TabIndex = 0;
             // 
-            // cb_role3
+            // cbFitterUser
             // 
-            this.cb_role3.FormattingEnabled = true;
-            this.cb_role3.Location = new System.Drawing.Point(770, 197);
-            this.cb_role3.Name = "cb_role3";
-            this.cb_role3.Size = new System.Drawing.Size(165, 24);
-            this.cb_role3.TabIndex = 7;
+            this.cbFitterUser.AutoSize = true;
+            this.cbFitterUser.Location = new System.Drawing.Point(770, 55);
+            this.cbFitterUser.Name = "cbFitterUser";
+            this.cbFitterUser.Size = new System.Drawing.Size(156, 20);
+            this.cbFitterUser.TabIndex = 14;
+            this.cbFitterUser.Text = "Lọc user chưa có role";
+            this.cbFitterUser.UseVisualStyleBackColor = true;
+            this.cbFitterUser.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
             // 
-            // btn_revoke3
+            // txbSearchUser
             // 
-            this.btn_revoke3.Location = new System.Drawing.Point(821, 246);
-            this.btn_revoke3.Name = "btn_revoke3";
-            this.btn_revoke3.Size = new System.Drawing.Size(86, 42);
-            this.btn_revoke3.TabIndex = 8;
-            this.btn_revoke3.Text = "Thu hồi";
-            this.btn_revoke3.UseVisualStyleBackColor = true;
-            this.btn_revoke3.Click += new System.EventHandler(this.button1_Click);
+            this.txbSearchUser.Location = new System.Drawing.Point(570, 23);
+            this.txbSearchUser.Name = "txbSearchUser";
+            this.txbSearchUser.Size = new System.Drawing.Size(195, 22);
+            this.txbSearchUser.TabIndex = 4;
             // 
-            // rb_fitter_user
+            // bSearchUser
             // 
-            this.rb_fitter_user.AutoSize = true;
-            this.rb_fitter_user.Location = new System.Drawing.Point(559, 94);
-            this.rb_fitter_user.Name = "rb_fitter_user";
-            this.rb_fitter_user.Size = new System.Drawing.Size(195, 20);
-            this.rb_fitter_user.TabIndex = 9;
-            this.rb_fitter_user.TabStop = true;
-            this.rb_fitter_user.Text = "Lọc người dùng chưa có role";
-            this.rb_fitter_user.UseVisualStyleBackColor = true;
-            // 
-            // lb_choose_role
-            // 
-            this.lb_choose_role.AutoSize = true;
-            this.lb_choose_role.Location = new System.Drawing.Point(767, 167);
-            this.lb_choose_role.Name = "lb_choose_role";
-            this.lb_choose_role.Size = new System.Drawing.Size(64, 16);
-            this.lb_choose_role.TabIndex = 10;
-            this.lb_choose_role.Text = "Chọn role";
-            this.lb_choose_role.Click += new System.EventHandler(this.lb_choose_role_Click);
-            // 
-            // txtBox_searchBox3
-            // 
-            this.txtBox_searchBox3.Location = new System.Drawing.Point(334, 53);
-            this.txtBox_searchBox3.Name = "txtBox_searchBox3";
-            this.txtBox_searchBox3.Size = new System.Drawing.Size(209, 22);
-            this.txtBox_searchBox3.TabIndex = 11;
-            // 
-            // btn_search3
-            // 
-            this.btn_search3.Location = new System.Drawing.Point(549, 53);
-            this.btn_search3.Name = "btn_search3";
-            this.btn_search3.Size = new System.Drawing.Size(75, 23);
-            this.btn_search3.TabIndex = 12;
-            this.btn_search3.Text = "Tìm";
-            this.btn_search3.UseVisualStyleBackColor = true;
-            // 
-            // cb_selectUserByPos
-            // 
-            this.cb_selectUserByPos.FormattingEnabled = true;
-            this.cb_selectUserByPos.Location = new System.Drawing.Point(653, 52);
-            this.cb_selectUserByPos.Name = "cb_selectUserByPos";
-            this.cb_selectUserByPos.Size = new System.Drawing.Size(101, 24);
-            this.cb_selectUserByPos.TabIndex = 13;
+            this.bSearchUser.Location = new System.Drawing.Point(795, 23);
+            this.bSearchUser.Name = "bSearchUser";
+            this.bSearchUser.Size = new System.Drawing.Size(75, 23);
+            this.bSearchUser.TabIndex = 5;
+            this.bSearchUser.Text = "Tìm";
+            this.bSearchUser.UseVisualStyleBackColor = true;
             // 
             // fAdmin
             // 
@@ -606,10 +618,12 @@
             this.tcRole.ResumeLayout(false);
             this.tpUser.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvUser)).EndInit();
             this.tpRole.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvUserRole)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvRole)).EndInit();
             this.tpPrivilege.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
@@ -618,11 +632,10 @@
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPrivileges)).EndInit();
             this.tpFunc_proc.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPrivileges2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -668,13 +681,14 @@
         private System.Windows.Forms.RadioButton rb_role2;
         private System.Windows.Forms.RadioButton rb_user2;
         private System.Windows.Forms.Button btn_grant3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtgvUserRole;
         private System.Windows.Forms.ComboBox cb_role3;
         private System.Windows.Forms.Button btn_revoke3;
-        private System.Windows.Forms.RadioButton rb_fitter_user;
         private System.Windows.Forms.Label lb_choose_role;
         private System.Windows.Forms.TextBox txtBox_searchBox3;
-        private System.Windows.Forms.ComboBox cb_selectUserByPos;
         private System.Windows.Forms.Button btn_search3;
+        private System.Windows.Forms.CheckBox cbFitterUser;
+        private System.Windows.Forms.Button bSearchUser;
+        private System.Windows.Forms.TextBox txbSearchUser;
     }
 }
