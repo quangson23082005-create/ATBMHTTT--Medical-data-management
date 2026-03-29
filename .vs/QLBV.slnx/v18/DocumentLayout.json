@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\duc20\\onedrive\\desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\atbmhttt--medical-data-management\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +42,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fLogin.cs",
+              "RelativeDocumentMoniker": "fLogin.cs",
+              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fLogin.cs [Design]",
+              "RelativeToolTip": "fLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T17:17:14.003Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fAdmin.cs",
+              "RelativeDocumentMoniker": "fAdmin.cs",
+              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fAdmin.cs",
+              "RelativeToolTip": "fAdmin.cs",
+              "ViewState": "AgIAAGsCAAAAAAAAAAAewHYCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T16:36:47.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "fAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fAdmin.cs",
+              "RelativeDocumentMoniker": "fAdmin.cs",
+              "ToolTip": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fAdmin.cs [Design]",
+              "RelativeToolTip": "fAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T16:36:37.252Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AccountDAO.cs",
               "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DAO\\AccountDAO.cs",
               "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
@@ -47,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DataProvider.cs",
               "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DAO\\DataProvider.cs",
               "RelativeDocumentMoniker": "DAO\\DataProvider.cs",
@@ -55,12 +104,11 @@
               "RelativeToolTip": "DAO\\DataProvider.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAA5wIsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T14:32:22.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T14:32:22.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "RoleDTO.cs",
               "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DTO\\RoleDTO.cs",
               "RelativeDocumentMoniker": "DTO\\RoleDTO.cs",
@@ -72,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "fLogin.cs",
               "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\fLogin.cs",
               "RelativeDocumentMoniker": "fLogin.cs",
@@ -85,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\duc20\\OneDrive\\Desktop\\y3t2\\an to\u00E0n v\u00E0 b\u1EA3o m\u1EADt d\u1EEF li\u1EC7u trong h\u1EC7 th\u1ED1ng th\u00F4ng tin\\ATBMHTTT--Medical-data-management\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "DTO\\UserDTO.cs",

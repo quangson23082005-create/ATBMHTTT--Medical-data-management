@@ -490,5 +490,145 @@ namespace QLBV
                     clb_column.SetItemChecked(i, false);
             }
         }
+
+        private void bRoleDelete_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tcRole_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtgvPrivileges_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void tpUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dtgvUser_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void bUserUpdate_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bUserDelete_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bUserInsert_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tpRole_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dtgvRole_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void bRoleUpdate_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bRoleInsert_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tpPrivilege_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void clb_column_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_chooseItem_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_revoke_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_grant_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btn_search_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtbox_searchBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rb_role_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rb_user_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tpFunc_proc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_choose_role_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
