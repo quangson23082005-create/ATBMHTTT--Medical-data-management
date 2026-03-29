@@ -1,0 +1,19 @@
+## Thư mục cấu hình của Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Thư mục build (chứa file .exe, .dll, .pdb)
+bin/
+obj/
+
+## Các file log và file tạm
+*.log
+*.tmp
+*.cache
+
+## File backup của Designer (như trong lỗi bạn gặp)
+*.backup.json
+DocumentLayout.json

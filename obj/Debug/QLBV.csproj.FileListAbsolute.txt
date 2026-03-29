@@ -38,3 +38,43 @@ D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.csproj.Up2Date
 D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.exe
 D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.pdb
 D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.fAdmin.resources
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\QLBV.exe.config
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\QLBV.exe
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\QLBV.pdb
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\EntityFramework.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Buffers.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Formats.Asn1.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Memory.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Text.Json.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.ValueTuple.dll
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\EntityFramework.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Buffers.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Formats.Asn1.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Memory.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Text.Json.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.ValueTuple.xml
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.csproj.AssemblyReference.cache
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.fLogin.resources
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.fAdmin.resources
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.Properties.Resources.resources
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.csproj.GenerateResource.cache
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.csproj.CoreCompileInputs.cache
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.csproj.Up2Date
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.exe
+C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.pdb

@@ -343,5 +343,14 @@ namespace QLBV
             MessageBox.Show("Role modification (beyond create/drop) is not implemented in this quick helper.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox_CRUD_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
