@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|D:\\Year 3\\ATBMHTTT\\test\\QLBV\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|D:\\Year 3\\ATBMHTTT\\test\\QLBV\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|D:\\Year 3\\ATBMHTTT\\test\\QLBV\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|D:\\Year 3\\ATBMHTTT\\test\\QLBV\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|D:\\Year 3\\ATBMHTTT\\test\\QLBV\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,43 +42,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DTO\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\RoleDTO.cs",
+              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DTO\\RoleDTO.cs",
+              "RelativeToolTip": "DTO\\RoleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T03:32:56.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDTO.cs",
+              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "DTO\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T03:32:42.341Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AccountDAO.cs",
               "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\AccountDAO.cs",
               "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
-              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\AccountDAO.cs",
-              "RelativeToolTip": "DAO\\AccountDAO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\AccountDAO.cs*",
+              "RelativeToolTip": "DAO\\AccountDAO.cs*",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAYwBwBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T01:35:43.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DataProvider.cs",
               "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\DataProvider.cs",
               "RelativeDocumentMoniker": "DAO\\DataProvider.cs",
               "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\DataProvider.cs",
               "RelativeToolTip": "DAO\\DataProvider.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwHoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwHoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T14:32:22.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "fAdmin.cs",
               "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fAdmin.cs",
               "RelativeDocumentMoniker": "fAdmin.cs",
               "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fAdmin.cs",
               "RelativeToolTip": "fAdmin.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAUwFoBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T14:08:40.335Z",
               "EditorCaption": ""
@@ -89,20 +123,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "fLogin.cs",
               "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fLogin.cs",
               "RelativeDocumentMoniker": "fLogin.cs",
               "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fLogin.cs",
               "RelativeToolTip": "fLogin.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwCcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T13:27:49.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "fLogin.cs [Design]",
               "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\fLogin.cs",
               "RelativeDocumentMoniker": "fLogin.cs",
