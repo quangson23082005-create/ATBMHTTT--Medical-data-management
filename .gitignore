@@ -5,6 +5,7 @@
 *.userosscache
 *.sln.docstates
 
+
 ## Thư mục build (chứa file .exe, .dll, .pdb)
 bin/
 obj/
@@ -17,3 +18,8 @@ obj/
 ## File backup của Designer (như trong lỗi bạn gặp)
 *.backup.json
 DocumentLayout.json
+
+[Bb]in/
+[Oo]bj/
+*.exe
+*.pdb

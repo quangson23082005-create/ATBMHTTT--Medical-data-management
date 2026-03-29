@@ -46,6 +46,7 @@
             this.clb_column = new System.Windows.Forms.CheckedListBox();
             this.cb_chooseItem = new System.Windows.Forms.ComboBox();
             this.btn_revoke = new System.Windows.Forms.Button();
+<<<<<<< Updated upstream
             this.btn_grant = new System.Windows.Forms.Button();
             this.cb_grantOption = new System.Windows.Forms.CheckBox();
             this.clb_CRUD = new System.Windows.Forms.CheckedListBox();
@@ -55,6 +56,10 @@
             this.rb_role = new System.Windows.Forms.RadioButton();
             this.rb_user = new System.Windows.Forms.RadioButton();
             this.dtgvPrivileges = new System.Windows.Forms.DataGridView();
+=======
+            this.cb_chooseItem = new System.Windows.Forms.ComboBox();
+            this.clb_column = new System.Windows.Forms.CheckedListBox();
+>>>>>>> Stashed changes
             this.tcRole.SuspendLayout();
             this.tpUser.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -224,11 +229,24 @@
             // 
             // clb_column
             // 
+<<<<<<< Updated upstream
             this.clb_column.FormattingEnabled = true;
             this.clb_column.Location = new System.Drawing.Point(13, 67);
             this.clb_column.Name = "clb_column";
             this.clb_column.Size = new System.Drawing.Size(269, 174);
             this.clb_column.TabIndex = 5;
+=======
+            this.dtgvPrivileges.AllowUserToAddRows = false;
+            this.dtgvPrivileges.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvPrivileges.Location = new System.Drawing.Point(3, 67);
+            this.dtgvPrivileges.Name = "dtgvPrivileges";
+            this.dtgvPrivileges.ReadOnly = true;
+            this.dtgvPrivileges.RowHeadersWidth = 51;
+            this.dtgvPrivileges.RowTemplate.Height = 24;
+            this.dtgvPrivileges.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgvPrivileges.Size = new System.Drawing.Size(672, 374);
+            this.dtgvPrivileges.TabIndex = 0;
+>>>>>>> Stashed changes
             // 
             // cb_chooseItem
             // 
@@ -269,6 +287,7 @@
             // 
             // clb_CRUD
             // 
+            this.clb_CRUD.CheckOnClick = true;
             this.clb_CRUD.FormattingEnabled = true;
             this.clb_CRUD.Items.AddRange(new object[] {
             "INSERT",
@@ -310,6 +329,7 @@
             this.txtbox_searchBox.Size = new System.Drawing.Size(277, 22);
             this.txtbox_searchBox.TabIndex = 3;
             // 
+<<<<<<< Updated upstream
             // rb_role
             // 
             this.rb_role.AutoSize = true;
@@ -341,6 +361,25 @@
             this.dtgvPrivileges.RowTemplate.Height = 24;
             this.dtgvPrivileges.Size = new System.Drawing.Size(672, 374);
             this.dtgvPrivileges.TabIndex = 0;
+=======
+            // cb_chooseItem
+            // 
+            this.cb_chooseItem.FormattingEnabled = true;
+            this.cb_chooseItem.Location = new System.Drawing.Point(13, 11);
+            this.cb_chooseItem.Name = "cb_chooseItem";
+            this.cb_chooseItem.Size = new System.Drawing.Size(121, 24);
+            this.cb_chooseItem.TabIndex = 4;
+            // 
+            // clb_column
+            // 
+            this.clb_column.CheckOnClick = true;
+            this.clb_column.Enabled = false;
+            this.clb_column.FormattingEnabled = true;
+            this.clb_column.Location = new System.Drawing.Point(13, 67);
+            this.clb_column.Name = "clb_column";
+            this.clb_column.Size = new System.Drawing.Size(269, 174);
+            this.clb_column.TabIndex = 5;
+>>>>>>> Stashed changes
             // 
             // fAdmin
             // 

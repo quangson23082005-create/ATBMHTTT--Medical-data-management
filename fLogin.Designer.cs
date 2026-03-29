@@ -122,7 +122,7 @@
             this.txbPassWord.Location = new System.Drawing.Point(158, 12);
             this.txbPassWord.Name = "txbPassWord";
             this.txbPassWord.Size = new System.Drawing.Size(396, 22);
-            this.txbPassWord.TabIndex = 2;
+            this.txbPassWord.TabIndex = 3;
             this.txbPassWord.UseSystemPasswordChar = true;
             // 
             // label4
@@ -177,7 +177,7 @@
             this.txbUsername.Location = new System.Drawing.Point(158, 12);
             this.txbUsername.Name = "txbUsername";
             this.txbUsername.Size = new System.Drawing.Size(396, 22);
-            this.txbUsername.TabIndex = 2;
+            this.txbUsername.TabIndex = 1;
             // 
             // label1
             // 
