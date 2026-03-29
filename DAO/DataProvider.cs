@@ -56,15 +56,31 @@ namespace QLBV.DAO
                 throw new InvalidOperationException($"Database error while executing query: \"{query}\"", ex);
             }
         }
+
         public int ExecuteNonQuery(string query)
         {
             if (string.IsNullOrWhiteSpace(query))
                 throw new ArgumentException("Query must not be null or empty.", nameof(query));
 
-            query = query.Trim();
-            while (query.EndsWith(";"))
+            // Preserve original formatting for PL/SQL blocks (BEGIN/DECLARE).
+            // Trim only when not a PL/SQL anonymous block to avoid removing required trailing semicolon.
+            string trimmed = query.TrimStart();
+            bool isPlSqlBlock = trimmed.StartsWith("BEGIN", StringComparison.OrdinalIgnoreCase)
+                                || trimmed.StartsWith("DECLARE", StringComparison.OrdinalIgnoreCase);
+
+            if (!isPlSqlBlock)
             {
-                query = query.Substring(0, query.Length - 1).TrimEnd();
+                // remove trailing semicolons for normal SQL statements
+                trimmed = trimmed.Trim();
+                while (trimmed.EndsWith(";"))
+                {
+                    trimmed = trimmed.Substring(0, trimmed.Length - 1).TrimEnd();
+                }
+            }
+            else
+            {
+                // For PL/SQL keep original trimming but preserve final semicolon if present.
+                trimmed = query.Trim();
             }
 
             int data = 0;
@@ -73,7 +89,7 @@ namespace QLBV.DAO
                 using (var connection = new OracleConnection(connectionSTR))
                 using (var command = connection.CreateCommand())
                 {
-                    command.CommandText = query;
+                    command.CommandText = trimmed;
                     connection.Open();
                     data = command.ExecuteNonQuery();
                     connection.Close();
@@ -81,7 +97,8 @@ namespace QLBV.DAO
             }
             catch (OracleException ex)
             {
-                throw new InvalidOperationException($"Database error while executing non-query: \"{query}\"", ex);
+                // include Oracle error number/message in the thrown exception for easier debugging
+                throw new InvalidOperationException($"Database error (ORA-{ex.Number}) while executing non-query: \"{query}\" - {ex.Message}", ex);
             }
             return data;
         }
