@@ -6,7 +6,7 @@ namespace QLBV.DAO
 {
     public class DataProvider
     {
-        // Tạo thực thể duy nhất (với cơ chế Thread-safe đơn giản)
+        // Tạo thực thể duy nhất 
         private static DataProvider instance;
 
         public static DataProvider Instance
@@ -24,7 +24,7 @@ namespace QLBV.DAO
         private DataProvider() { }
 
         private string connectionSTR = "Data Source=localhost:1521/XEPDB1;User ID=ADMIN;Password=123";
-
+        //Dùng cho các câu lệnh truy vấn dữ liệu
         public DataTable ExecuteQuery(string query)
         {
             if (string.IsNullOrWhiteSpace(query))
@@ -56,21 +56,18 @@ namespace QLBV.DAO
                 throw new InvalidOperationException($"Database error while executing query: \"{query}\"", ex);
             }
         }
-
+        //Dùng cho các câu lệnh thay đổi dữ liệu hoặc cấu trúc
         public int ExecuteNonQuery(string query)
         {
             if (string.IsNullOrWhiteSpace(query))
                 throw new ArgumentException("Query must not be null or empty.", nameof(query));
 
-            // Preserve original formatting for PL/SQL blocks (BEGIN/DECLARE).
-            // Trim only when not a PL/SQL anonymous block to avoid removing required trailing semicolon.
             string trimmed = query.TrimStart();
             bool isPlSqlBlock = trimmed.StartsWith("BEGIN", StringComparison.OrdinalIgnoreCase)
                                 || trimmed.StartsWith("DECLARE", StringComparison.OrdinalIgnoreCase);
 
             if (!isPlSqlBlock)
             {
-                // remove trailing semicolons for normal SQL statements
                 trimmed = trimmed.Trim();
                 while (trimmed.EndsWith(";"))
                 {
@@ -79,7 +76,6 @@ namespace QLBV.DAO
             }
             else
             {
-                // For PL/SQL keep original trimming but preserve final semicolon if present.
                 trimmed = query.Trim();
             }
 
@@ -97,13 +93,11 @@ namespace QLBV.DAO
             }
             catch (OracleException ex)
             {
-                // include Oracle error number/message in the thrown exception for easier debugging
                 throw new InvalidOperationException($"Database error (ORA-{ex.Number}) while executing non-query: \"{query}\" - {ex.Message}", ex);
             }
             return data;
         }
-
-        // Trả về ô đầu tiên của dòng đầu tiên (Dùng cho các lệnh COUNT, MAX, MIN...)
+        //Dùng khi chỉ cần lấy một giá trị đơn lẻ(COUNT, SUM, MAX,...)
         public object ExecuteScalar(string query)
         {
             if (string.IsNullOrWhiteSpace(query))

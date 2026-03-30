@@ -15,7 +15,7 @@ namespace QLBV
 {
     public partial class fAdmin : Form
     {
-        // cache of procedure/function rows for the advanced tab
+        
         private System.Collections.Generic.List<System.Data.DataRow> procFuncRowsCache = new System.Collections.Generic.List<System.Data.DataRow>();
 
         public fAdmin()

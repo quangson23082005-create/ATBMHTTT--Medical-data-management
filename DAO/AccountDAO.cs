@@ -27,7 +27,6 @@ namespace QLBV.DAO
 
         private AccountDAO() { }
 
-        // Authenticate as a database user (DBA/admin user). Keeps existing behavior.
         public bool Login(string username, string password)
         {
             string connStr = $"User Id={username};Password={password};Data Source=localhost:1521/XEPDB1";
@@ -45,7 +44,6 @@ namespace QLBV.DAO
             }
             catch (OracleException ex)
             {
-                // ORA-01017 (invalid username/password) or ORA-28000 (account locked)
                 if (ex.Number == 1017 || ex.Number == 28000)
                     return false;
 
@@ -53,22 +51,18 @@ namespace QLBV.DAO
             }
         }
 
-        // Return DB users created locally (non-common) so admin manages only project-local users
         public DataTable GetAllUsers()
         {
-            // Filter COMMON = 'NO' to exclude container/common users
             string query = "SELECT USERNAME, ACCOUNT_STATUS, TO_CHAR(CREATED, 'YYYY-MM-DD') AS CREATED FROM DBA_USERS WHERE COMMON = 'NO' ORDER BY USERNAME";
             return DataProvider.Instance.ExecuteQuery(query);
         }
 
-        // Return DB roles created locally (non-common)
         public DataTable GetAllRoles()
         {
             string query = "SELECT ROLE AS ROLENAME FROM DBA_ROLES WHERE COMMON = 'NO' ORDER BY ROLE";
             return DataProvider.Instance.ExecuteQuery(query);
         }
 
-        // Strongly-typed methods returning DTO lists (used by fAdmin binding)
         public List<UserDTO> GetAllUsersDto()
         {
             DataTable dt = GetAllUsers();
@@ -86,7 +80,6 @@ namespace QLBV.DAO
             return list;
         }
 
-        // Search users by username substring (case-insensitive). Returns DTO list.
         public List<UserDTO> GetUsersLike(string term)
         {
             if (term == null) term = string.Empty;
@@ -122,10 +115,8 @@ namespace QLBV.DAO
             return list;
         }
 
-        // Return a mapping of users to their assigned roles (roles aggregated as comma-separated list).
         public DataTable GetUserRoleMapping()
         {
-            // Use LISTAGG to aggregate multiple roles assigned to a user into a single string.
             string q = @"
 SELECT u.USERNAME,
        LISTAGG(r.GRANTED_ROLE, ', ') WITHIN GROUP (ORDER BY r.GRANTED_ROLE) AS ROLE
@@ -137,7 +128,6 @@ ORDER BY u.USERNAME";
             return DataProvider.Instance.ExecuteQuery(q);
         }
 
-        // Return list of roles granted to a specific user
         public List<string> GetRolesForUser(string username)
         {
             if (string.IsNullOrWhiteSpace(username)) return new List<string>();
@@ -153,7 +143,6 @@ ORDER BY u.USERNAME";
             return list;
         }
 
-        // These methods still perform DBA-level DDL and thus require the connected DB user to have privileges.
         public bool CreateUser(string username, string password)
         {
             if (string.IsNullOrWhiteSpace(username))
@@ -164,7 +153,6 @@ ORDER BY u.USERNAME";
             if (!Regex.IsMatch(username, @"^[A-Za-z0-9_]+$"))
                 throw new ArgumentException("Invalid username. Only letters, digits and underscore allowed.", nameof(username));
 
-            // Create a database user (DDL) — requires CREATE USER privilege
             string sql = $"CREATE USER \"{username}\" IDENTIFIED BY \"{password}\"";
             DataProvider.Instance.ExecuteNonQuery(sql);
             return true;

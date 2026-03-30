@@ -67,7 +67,7 @@
             this.bExit.Name = "bExit";
             this.bExit.Size = new System.Drawing.Size(105, 23);
             this.bExit.TabIndex = 5;
-            this.bExit.Text = "Thoát";
+            this.bExit.Text = "Exit";
             this.bExit.UseVisualStyleBackColor = true;
             this.bExit.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -77,7 +77,7 @@
             this.bLogin.Name = "bLogin";
             this.bLogin.Size = new System.Drawing.Size(105, 23);
             this.bLogin.TabIndex = 4;
-            this.bLogin.Text = "Đăng nhập";
+            this.bLogin.Text = "Login";
             this.bLogin.UseVisualStyleBackColor = true;
             this.bLogin.Click += new System.EventHandler(this.bLogin_Click);
             // 
@@ -129,11 +129,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(22, 12);
+            this.label4.Location = new System.Drawing.Point(35, 12);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 19);
+            this.label4.Size = new System.Drawing.Size(93, 19);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Mật khẩu:";
+            this.label4.Text = "Password:";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel2
@@ -183,11 +183,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 12);
+            this.label1.Location = new System.Drawing.Point(35, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 19);
+            this.label1.Size = new System.Drawing.Size(94, 19);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Tên đăng nhập:";
+            this.label1.Text = "Username:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // fLogin
@@ -198,7 +198,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "fLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Đăng nhập";
+            this.Text = "Login";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fLogin_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);

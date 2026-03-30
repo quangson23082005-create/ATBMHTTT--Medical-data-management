@@ -31,12 +31,15 @@
             this.tcRole = new System.Windows.Forms.TabControl();
             this.tpUser = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bSearchUser = new System.Windows.Forms.Button();
+            this.txbSearchUser = new System.Windows.Forms.TextBox();
             this.dtgvUser = new System.Windows.Forms.DataGridView();
             this.bUserUpdate = new System.Windows.Forms.Button();
             this.bUserDelete = new System.Windows.Forms.Button();
             this.bUserInsert = new System.Windows.Forms.Button();
             this.tpRole = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cbFitterUser = new System.Windows.Forms.CheckBox();
             this.btn_search3 = new System.Windows.Forms.Button();
             this.txtBox_searchBox3 = new System.Windows.Forms.TextBox();
             this.lb_choose_role = new System.Windows.Forms.Label();
@@ -73,9 +76,6 @@
             this.btn_search2 = new System.Windows.Forms.Button();
             this.txtBox_searchBox2 = new System.Windows.Forms.TextBox();
             this.dtgvPrivileges2 = new System.Windows.Forms.DataGridView();
-            this.cbFitterUser = new System.Windows.Forms.CheckBox();
-            this.txbSearchUser = new System.Windows.Forms.TextBox();
-            this.bSearchUser = new System.Windows.Forms.Button();
             this.tcRole.SuspendLayout();
             this.tpUser.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -115,7 +115,7 @@
             this.tpUser.Padding = new System.Windows.Forms.Padding(3);
             this.tpUser.Size = new System.Drawing.Size(984, 456);
             this.tpUser.TabIndex = 0;
-            this.tpUser.Text = "Quản lý user";
+            this.tpUser.Text = "User Management";
             this.tpUser.UseVisualStyleBackColor = true;
             this.tpUser.Click += new System.EventHandler(this.tpUser_Click);
             // 
@@ -133,8 +133,25 @@
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // bSearchUser
+            // 
+            this.bSearchUser.Location = new System.Drawing.Point(795, 23);
+            this.bSearchUser.Name = "bSearchUser";
+            this.bSearchUser.Size = new System.Drawing.Size(75, 23);
+            this.bSearchUser.TabIndex = 5;
+            this.bSearchUser.Text = "Search";
+            this.bSearchUser.UseVisualStyleBackColor = true;
+            // 
+            // txbSearchUser
+            // 
+            this.txbSearchUser.Location = new System.Drawing.Point(570, 23);
+            this.txbSearchUser.Name = "txbSearchUser";
+            this.txbSearchUser.Size = new System.Drawing.Size(195, 22);
+            this.txbSearchUser.TabIndex = 4;
+            // 
             // dtgvUser
             // 
+            this.dtgvUser.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvUser.Location = new System.Drawing.Point(46, 118);
             this.dtgvUser.Name = "dtgvUser";
@@ -151,7 +168,7 @@
             this.bUserUpdate.Name = "bUserUpdate";
             this.bUserUpdate.Size = new System.Drawing.Size(105, 62);
             this.bUserUpdate.TabIndex = 2;
-            this.bUserUpdate.Text = "Sửa";
+            this.bUserUpdate.Text = "Update";
             this.bUserUpdate.UseVisualStyleBackColor = true;
             this.bUserUpdate.Click += new System.EventHandler(this.bUserUpdate_Click_1);
             // 
@@ -161,7 +178,7 @@
             this.bUserDelete.Name = "bUserDelete";
             this.bUserDelete.Size = new System.Drawing.Size(105, 62);
             this.bUserDelete.TabIndex = 1;
-            this.bUserDelete.Text = "Xoá";
+            this.bUserDelete.Text = "Delete";
             this.bUserDelete.UseVisualStyleBackColor = true;
             this.bUserDelete.Click += new System.EventHandler(this.bUserDelete_Click_1);
             // 
@@ -171,7 +188,7 @@
             this.bUserInsert.Name = "bUserInsert";
             this.bUserInsert.Size = new System.Drawing.Size(105, 62);
             this.bUserInsert.TabIndex = 0;
-            this.bUserInsert.Text = "Thêm";
+            this.bUserInsert.Text = "Insert";
             this.bUserInsert.UseVisualStyleBackColor = true;
             this.bUserInsert.Click += new System.EventHandler(this.bUserInsert_Click_1);
             // 
@@ -183,7 +200,7 @@
             this.tpRole.Padding = new System.Windows.Forms.Padding(3);
             this.tpRole.Size = new System.Drawing.Size(984, 456);
             this.tpRole.TabIndex = 1;
-            this.tpRole.Text = "Quản lý role";
+            this.tpRole.Text = "Role Management";
             this.tpRole.UseVisualStyleBackColor = true;
             this.tpRole.Click += new System.EventHandler(this.tpRole_Click);
             // 
@@ -207,13 +224,24 @@
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // cbFitterUser
+            // 
+            this.cbFitterUser.AutoSize = true;
+            this.cbFitterUser.Location = new System.Drawing.Point(701, 53);
+            this.cbFitterUser.Name = "cbFitterUser";
+            this.cbFitterUser.Size = new System.Drawing.Size(234, 20);
+            this.cbFitterUser.TabIndex = 14;
+            this.cbFitterUser.Text = "Filter users who do not have a role.";
+            this.cbFitterUser.UseVisualStyleBackColor = true;
+            this.cbFitterUser.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
+            // 
             // btn_search3
             // 
             this.btn_search3.Location = new System.Drawing.Point(549, 53);
             this.btn_search3.Name = "btn_search3";
             this.btn_search3.Size = new System.Drawing.Size(75, 23);
             this.btn_search3.TabIndex = 12;
-            this.btn_search3.Text = "Tìm";
+            this.btn_search3.Text = "Search";
             this.btn_search3.UseVisualStyleBackColor = true;
             // 
             // txtBox_searchBox3
@@ -228,9 +256,9 @@
             this.lb_choose_role.AutoSize = true;
             this.lb_choose_role.Location = new System.Drawing.Point(767, 167);
             this.lb_choose_role.Name = "lb_choose_role";
-            this.lb_choose_role.Size = new System.Drawing.Size(64, 16);
+            this.lb_choose_role.Size = new System.Drawing.Size(80, 16);
             this.lb_choose_role.TabIndex = 10;
-            this.lb_choose_role.Text = "Chọn role";
+            this.lb_choose_role.Text = "Choose role";
             this.lb_choose_role.Click += new System.EventHandler(this.lb_choose_role_Click);
             // 
             // btn_revoke3
@@ -239,7 +267,7 @@
             this.btn_revoke3.Name = "btn_revoke3";
             this.btn_revoke3.Size = new System.Drawing.Size(86, 42);
             this.btn_revoke3.TabIndex = 8;
-            this.btn_revoke3.Text = "Thu hồi";
+            this.btn_revoke3.Text = "Revoke";
             this.btn_revoke3.UseVisualStyleBackColor = true;
             this.btn_revoke3.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -257,11 +285,12 @@
             this.btn_grant3.Name = "btn_grant3";
             this.btn_grant3.Size = new System.Drawing.Size(86, 42);
             this.btn_grant3.TabIndex = 6;
-            this.btn_grant3.Text = "Gán";
+            this.btn_grant3.Text = "Grant";
             this.btn_grant3.UseVisualStyleBackColor = true;
             // 
             // dtgvUserRole
             // 
+            this.dtgvUserRole.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvUserRole.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvUserRole.Location = new System.Drawing.Point(334, 120);
             this.dtgvUserRole.Name = "dtgvUserRole";
@@ -273,6 +302,7 @@
             // 
             // dtgvRole
             // 
+            this.dtgvRole.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvRole.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvRole.Location = new System.Drawing.Point(25, 120);
             this.dtgvRole.Name = "dtgvRole";
@@ -288,7 +318,7 @@
             this.bRoleUpdate.Name = "bRoleUpdate";
             this.bRoleUpdate.Size = new System.Drawing.Size(91, 62);
             this.bRoleUpdate.TabIndex = 2;
-            this.bRoleUpdate.Text = "Sửa";
+            this.bRoleUpdate.Text = "Update";
             this.bRoleUpdate.UseVisualStyleBackColor = true;
             this.bRoleUpdate.Click += new System.EventHandler(this.bRoleUpdate_Click_1);
             // 
@@ -298,17 +328,17 @@
             this.bRoleDelete.Name = "bRoleDelete";
             this.bRoleDelete.Size = new System.Drawing.Size(92, 62);
             this.bRoleDelete.TabIndex = 1;
-            this.bRoleDelete.Text = "Xoá";
+            this.bRoleDelete.Text = "Delete";
             this.bRoleDelete.UseVisualStyleBackColor = true;
             this.bRoleDelete.Click += new System.EventHandler(this.bRoleDelete_Click_1);
             // 
             // bRoleInsert
             // 
-            this.bRoleInsert.Location = new System.Drawing.Point(25, 23);
+            this.bRoleInsert.Location = new System.Drawing.Point(16, 23);
             this.bRoleInsert.Name = "bRoleInsert";
-            this.bRoleInsert.Size = new System.Drawing.Size(75, 62);
+            this.bRoleInsert.Size = new System.Drawing.Size(84, 62);
             this.bRoleInsert.TabIndex = 0;
-            this.bRoleInsert.Text = "Thêm";
+            this.bRoleInsert.Text = "Insert";
             this.bRoleInsert.UseVisualStyleBackColor = true;
             this.bRoleInsert.Click += new System.EventHandler(this.bRoleInsert_Click_1);
             // 
@@ -321,7 +351,7 @@
             this.tpPrivilege.Padding = new System.Windows.Forms.Padding(3);
             this.tpPrivilege.Size = new System.Drawing.Size(984, 456);
             this.tpPrivilege.TabIndex = 2;
-            this.tpPrivilege.Text = "Quản lý quyền";
+            this.tpPrivilege.Text = "Privilege Management";
             this.tpPrivilege.UseVisualStyleBackColor = true;
             this.tpPrivilege.Click += new System.EventHandler(this.tpPrivilege_Click);
             // 
@@ -423,7 +453,7 @@
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(75, 23);
             this.btn_search.TabIndex = 4;
-            this.btn_search.Text = "Tìm kiếm";
+            this.btn_search.Text = "Search";
             this.btn_search.UseVisualStyleBackColor = true;
             this.btn_search.Click += new System.EventHandler(this.btn_search_Click_1);
             // 
@@ -479,7 +509,7 @@
             this.tpFunc_proc.Padding = new System.Windows.Forms.Padding(3);
             this.tpFunc_proc.Size = new System.Drawing.Size(984, 456);
             this.tpFunc_proc.TabIndex = 3;
-            this.tpFunc_proc.Text = "Quản lý nâng cao ";
+            this.tpFunc_proc.Text = "Execute Management";
             this.tpFunc_proc.UseVisualStyleBackColor = true;
             this.tpFunc_proc.Click += new System.EventHandler(this.tpFunc_proc_Click);
             // 
@@ -559,7 +589,7 @@
             this.btn_search2.Name = "btn_search2";
             this.btn_search2.Size = new System.Drawing.Size(75, 23);
             this.btn_search2.TabIndex = 2;
-            this.btn_search2.Text = "Tìm";
+            this.btn_search2.Text = "Search";
             this.btn_search2.UseVisualStyleBackColor = true;
             // 
             // txtBox_searchBox2
@@ -578,33 +608,6 @@
             this.dtgvPrivileges2.RowTemplate.Height = 24;
             this.dtgvPrivileges2.Size = new System.Drawing.Size(673, 376);
             this.dtgvPrivileges2.TabIndex = 0;
-            // 
-            // cbFitterUser
-            // 
-            this.cbFitterUser.AutoSize = true;
-            this.cbFitterUser.Location = new System.Drawing.Point(770, 55);
-            this.cbFitterUser.Name = "cbFitterUser";
-            this.cbFitterUser.Size = new System.Drawing.Size(156, 20);
-            this.cbFitterUser.TabIndex = 14;
-            this.cbFitterUser.Text = "Lọc user chưa có role";
-            this.cbFitterUser.UseVisualStyleBackColor = true;
-            this.cbFitterUser.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
-            // 
-            // txbSearchUser
-            // 
-            this.txbSearchUser.Location = new System.Drawing.Point(570, 23);
-            this.txbSearchUser.Name = "txbSearchUser";
-            this.txbSearchUser.Size = new System.Drawing.Size(195, 22);
-            this.txbSearchUser.TabIndex = 4;
-            // 
-            // bSearchUser
-            // 
-            this.bSearchUser.Location = new System.Drawing.Point(795, 23);
-            this.bSearchUser.Name = "bSearchUser";
-            this.bSearchUser.Size = new System.Drawing.Size(75, 23);
-            this.bSearchUser.TabIndex = 5;
-            this.bSearchUser.Text = "Tìm";
-            this.bSearchUser.UseVisualStyleBackColor = true;
             // 
             // fAdmin
             // 

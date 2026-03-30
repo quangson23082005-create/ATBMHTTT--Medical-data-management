@@ -35,7 +35,6 @@ namespace QLBV
             string password = txbPassWord.Text;
             if (Login(txbUsername.Text, txbPassWord.Text))
             {
-                MessageBox.Show("Đăng nhập thành công!");
                 fAdmin f = new fAdmin();
                 this.Hide();
                 f.ShowDialog();
@@ -43,7 +42,7 @@ namespace QLBV
             }
             else
             {
-                MessageBox.Show("Đăng nhập thất bại. Vui lòng kiểm tra lại thông tin.");
+                MessageBox.Show("Login failed. Please double-check your information.");
             }
         }
 
@@ -60,7 +59,7 @@ namespace QLBV
 
         private void fLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(MessageBox.Show("Bạn có muốn thoát chương trình không?", "Thông báo", MessageBoxButtons.OKCancel) != DialogResult.OK)
+            if(MessageBox.Show("Do you want to exit the program??", "Notification", MessageBoxButtons.OKCancel) != DialogResult.OK)
             {
                 e.Cancel = true;
             } 
