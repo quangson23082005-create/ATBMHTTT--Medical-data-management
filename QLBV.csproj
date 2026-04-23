@@ -98,10 +98,41 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\BacSiDAO.cs" />
+    <Compile Include="DAO\BenhNhanDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\DieuPhoiVienDAO.cs" />
+    <Compile Include="DAO\KyThuatVienDAO.cs" />
     <Compile Include="DAO\PrivilegeDAO.cs" />
+    <Compile Include="DTO\BenhNhanDTO.cs" />
+    <Compile Include="DTO\GrantedRoleDTO.cs" />
+    <Compile Include="DTO\HsbaDvDTO.cs" />
     <Compile Include="DTO\RoleDTO.cs" />
     <Compile Include="DTO\UserDTO.cs" />
+    <Compile Include="fBacSi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBacSi.Designer.cs">
+      <DependentUpon>fBacSi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fBenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBenhNhan.Designer.cs">
+      <DependentUpon>fBenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDieuPhoiVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDieuPhoiVien.Designer.cs">
+      <DependentUpon>fDieuPhoiVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fKyThuatVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fKyThuatVien.Designer.cs">
+      <DependentUpon>fKyThuatVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>

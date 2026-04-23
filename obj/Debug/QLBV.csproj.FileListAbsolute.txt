@@ -1,80 +1,80 @@
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\QLBV.exe.config
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\QLBV.exe
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\QLBV.pdb
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\EntityFramework.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\Oracle.ManagedDataAccess.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Buffers.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Formats.Asn1.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Memory.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Text.Encodings.Web.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Text.Json.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.ValueTuple.dll
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\EntityFramework.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Buffers.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Formats.Asn1.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Memory.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Text.Json.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\bin\Debug\System.ValueTuple.xml
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.csproj.AssemblyReference.cache
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.fLogin.resources
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.fAdmin.resources
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.Properties.Resources.resources
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.csproj.GenerateResource.cache
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.csproj.CoreCompileInputs.cache
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.csproj.Up2Date
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.exe
-C:\Users\duc20\OneDrive\Desktop\y3t2\an toàn và bảo mật dữ liệu trong hệ thống thông tin\ATBMHTTT--Medical-data-management\obj\Debug\QLBV.pdb
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\QLBV.exe.config
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\QLBV.exe
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\QLBV.pdb
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\EntityFramework.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\EntityFramework.SqlServer.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\Oracle.ManagedDataAccess.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Buffers.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Formats.Asn1.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Memory.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Numerics.Vectors.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Text.Encodings.Web.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Text.Json.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.ValueTuple.dll
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\EntityFramework.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\EntityFramework.SqlServer.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Buffers.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Formats.Asn1.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Memory.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Numerics.Vectors.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Text.Encodings.Web.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Text.Json.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\Year 3\ATBMHTTT\test\QLBV\bin\Debug\System.ValueTuple.xml
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.csproj.AssemblyReference.cache
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.fLogin.resources
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.fAdmin.resources
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.Properties.Resources.resources
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.csproj.GenerateResource.cache
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.csproj.CoreCompileInputs.cache
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.csproj.Up2Date
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.exe
-D:\Year 3\ATBMHTTT\test\QLBV\obj\Debug\QLBV.pdb
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\QLBV.exe.config
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\QLBV.exe
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\QLBV.pdb
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\EntityFramework.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Buffers.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Formats.Asn1.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Memory.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Text.Json.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.ValueTuple.dll
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\EntityFramework.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Buffers.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Formats.Asn1.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Memory.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Text.Json.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\bin\Debug\System.ValueTuple.xml
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.csproj.AssemblyReference.cache
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.fLogin.resources
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.fAdmin.resources
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.Properties.Resources.resources
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.csproj.GenerateResource.cache
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.csproj.CoreCompileInputs.cache
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.csproj.Up2Date
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.exe
+C:\Users\YNT\Desktop\atbm\ATBM2026-ATBM-04-Phanhe1\SourceCode\obj\Debug\QLBV.pdb
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.csproj.AssemblyReference.cache
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.fLogin.resources
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.fAdmin.resources
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.Properties.Resources.resources
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.csproj.GenerateResource.cache
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.csproj.CoreCompileInputs.cache
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.exe
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.pdb
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\QLBV.exe.config
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\QLBV.exe
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\QLBV.pdb
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\EntityFramework.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Buffers.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Formats.Asn1.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Memory.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Text.Json.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.ValueTuple.dll
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\EntityFramework.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Buffers.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Formats.Asn1.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Memory.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Text.Json.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\bin\Debug\System.ValueTuple.xml
+C:\Users\YNT\Desktop\atbm\SourceCode\obj\Debug\QLBV.csproj.Up2Date

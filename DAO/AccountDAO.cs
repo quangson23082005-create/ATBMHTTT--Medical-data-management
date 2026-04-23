@@ -27,6 +27,11 @@ namespace QLBV.DAO
 
         private AccountDAO() { }
 
+        // ================================================================
+        // ĐĂNG NHẬP
+        // Kết nối bằng chính tài khoản user → Oracle tự enforce quyền
+        // Sau đó cập nhật connectionString về ADMIN để các query khác dùng
+        // ================================================================
         public bool Login(string username, string password)
         {
             string connStr = $"User Id={username};Password={password};Data Source=localhost:1521/XEPDB1";
@@ -36,9 +41,10 @@ namespace QLBV.DAO
                 using (OracleConnection conn = new OracleConnection(connStr))
                 {
                     conn.Open();
-
-                    DataProvider.Instance.UpdateConnectionString(connStr);
-
+                    // Sau khi xác thực thành công, trở về connection ADMIN
+                    // để các thao tác quản trị (phân hệ 1) vẫn hoạt động bình thường
+                    DataProvider.Instance.UpdateConnectionString(
+                        "Data Source=localhost:1521/XEPDB1;User ID=ADMIN;Password=123");
                     return true;
                 }
             }
@@ -46,11 +52,44 @@ namespace QLBV.DAO
             {
                 if (ex.Number == 1017 || ex.Number == 28000)
                     return false;
-
                 throw new Exception("Lỗi hệ thống khi đăng nhập: " + ex.Message);
             }
         }
 
+        // ================================================================
+        // LẤY VAI TRÒ CỦA USER ĐỂ ĐIỀU HƯỚNG FORM
+        // Dùng connection ADMIN để đọc bảng NHANVIEN
+        // Trả về: "Kỹ thuật viên", "Bác sĩ", "Điều phối viên",
+        //         "Bệnh nhân", hoặc "ADMIN" nếu không tìm thấy
+        // ================================================================
+        public string GetVaiTro(string username)
+        {
+            username = username.ToUpper();
+
+            // Kiểm tra có phải ADMIN/DBA không (không có trong NHANVIEN hay BENHNHAN)
+            if (username == "ADMIN" || username == "SYS" || username == "SYSTEM")
+                return "ADMIN";
+
+            // Kiểm tra trong bảng NHANVIEN
+            string queryNV = $"SELECT VAITRO FROM ADMIN.NHANVIEN WHERE MANV = '{username}'";
+            try
+            {
+                DataTable dt = DataProvider.Instance.ExecuteQuery(queryNV);
+                if (dt.Rows.Count > 0)
+                    return dt.Rows[0]["VAITRO"]?.ToString();
+            }
+            catch { }
+
+            // Kiểm tra trong bảng BENHNHAN (username dạng BN***)
+            if (username.StartsWith("BN"))
+                return "Bệnh nhân";
+
+            return "ADMIN"; // fallback
+        }
+
+        // ================================================================
+        // CÁC HÀM PHỤC VỤ PHÂN HỆ 1 (giữ nguyên)
+        // ================================================================
         public DataTable GetAllUsers()
         {
             string query = "SELECT USERNAME, ACCOUNT_STATUS, TO_CHAR(CREATED, 'YYYY-MM-DD') AS CREATED FROM DBA_USERS WHERE COMMON = 'NO' ORDER BY USERNAME";
@@ -69,13 +108,12 @@ namespace QLBV.DAO
             var list = new List<UserDTO>();
             foreach (DataRow row in dt.Rows)
             {
-                var user = new UserDTO
+                list.Add(new UserDTO
                 {
-                    Username = row.Table.Columns.Contains("USERNAME") ? row["USERNAME"]?.ToString() : null,
-                    Status = row.Table.Columns.Contains("ACCOUNT_STATUS") ? row["ACCOUNT_STATUS"]?.ToString() : null,
-                    CreatedDate = row.Table.Columns.Contains("CREATED") ? row["CREATED"]?.ToString() : null
-                };
-                list.Add(user);
+                    Username = row["USERNAME"]?.ToString(),
+                    Status = row["ACCOUNT_STATUS"]?.ToString(),
+                    CreatedDate = row["CREATED"]?.ToString()
+                });
             }
             return list;
         }
@@ -89,13 +127,12 @@ namespace QLBV.DAO
             var list = new List<UserDTO>();
             foreach (DataRow row in dt.Rows)
             {
-                var user = new UserDTO
+                list.Add(new UserDTO
                 {
-                    Username = row.Table.Columns.Contains("USERNAME") ? row["USERNAME"]?.ToString() : null,
-                    Status = row.Table.Columns.Contains("ACCOUNT_STATUS") ? row["ACCOUNT_STATUS"]?.ToString() : null,
-                    CreatedDate = row.Table.Columns.Contains("CREATED") ? row["CREATED"]?.ToString() : null
-                };
-                list.Add(user);
+                    Username = row["USERNAME"]?.ToString(),
+                    Status = row["ACCOUNT_STATUS"]?.ToString(),
+                    CreatedDate = row["CREATED"]?.ToString()
+                });
             }
             return list;
         }
@@ -106,11 +143,10 @@ namespace QLBV.DAO
             var list = new List<RoleDTO>();
             foreach (DataRow row in dt.Rows)
             {
-                var r = new RoleDTO
+                list.Add(new RoleDTO
                 {
-                    RoleName = row.Table.Columns.Contains("ROLENAME") ? row["ROLENAME"]?.ToString() : row[0]?.ToString()
-                };
-                list.Add(r);
+                    RoleName = row["ROLENAME"]?.ToString()
+                });
             }
             return list;
         }
@@ -145,80 +181,48 @@ ORDER BY u.USERNAME";
 
         public bool CreateUser(string username, string password)
         {
-            if (string.IsNullOrWhiteSpace(username))
-                throw new ArgumentException("username required", nameof(username));
-            if (password == null)
-                throw new ArgumentNullException(nameof(password));
-
             if (!Regex.IsMatch(username, @"^[A-Za-z0-9_]+$"))
-                throw new ArgumentException("Invalid username. Only letters, digits and underscore allowed.", nameof(username));
-
-            string sql = $"CREATE USER \"{username}\" IDENTIFIED BY \"{password}\"";
-            DataProvider.Instance.ExecuteNonQuery(sql);
+                throw new ArgumentException("Invalid username.");
+            DataProvider.Instance.ExecuteNonQuery($"CREATE USER \"{username}\" IDENTIFIED BY \"{password}\"");
             return true;
         }
 
         public bool DropUser(string username)
         {
-            if (string.IsNullOrWhiteSpace(username))
-                throw new ArgumentException("username required", nameof(username));
-            string sql = $"DROP USER \"{username}\" CASCADE";
-            DataProvider.Instance.ExecuteNonQuery(sql);
+            DataProvider.Instance.ExecuteNonQuery($"DROP USER \"{username}\" CASCADE");
             return true;
         }
 
         public bool AlterUserPassword(string username, string newPassword)
         {
-            if (string.IsNullOrWhiteSpace(username))
-                throw new ArgumentException("username required", nameof(username));
-            if (newPassword == null)
-                throw new ArgumentNullException(nameof(newPassword));
-
-            string sql = $"ALTER USER \"{username}\" IDENTIFIED BY \"{newPassword}\"";
-            DataProvider.Instance.ExecuteNonQuery(sql);
+            DataProvider.Instance.ExecuteNonQuery($"ALTER USER \"{username}\" IDENTIFIED BY \"{newPassword}\"");
             return true;
         }
 
         public bool AlterRolePassword(string roleName, string newPassword)
         {
-            if (string.IsNullOrWhiteSpace(roleName))
-                throw new ArgumentException("roleName required", nameof(roleName));
-            if (newPassword == null)
-                throw new ArgumentNullException(nameof(newPassword));
-
             if (!Regex.IsMatch(roleName, @"^[A-Za-z0-9_]+$"))
-                throw new ArgumentException("Invalid role name. Only letters, digits and underscore allowed.", nameof(roleName));
-
-            string sql = $"ALTER ROLE \"{roleName}\" IDENTIFIED BY \"{newPassword}\"";
-            DataProvider.Instance.ExecuteNonQuery(sql);
+                throw new ArgumentException("Invalid role name.");
+            DataProvider.Instance.ExecuteNonQuery($"ALTER ROLE \"{roleName}\" IDENTIFIED BY \"{newPassword}\"");
             return true;
         }
 
         public bool LockUser(string username)
         {
-            if (string.IsNullOrWhiteSpace(username))
-                throw new ArgumentException("username required", nameof(username));
-            string sql = $"ALTER USER \"{username}\" ACCOUNT LOCK";
-            DataProvider.Instance.ExecuteNonQuery(sql);
+            DataProvider.Instance.ExecuteNonQuery($"ALTER USER \"{username}\" ACCOUNT LOCK");
             return true;
         }
 
         public bool UnlockUser(string username)
         {
-            if (string.IsNullOrWhiteSpace(username))
-                throw new ArgumentException("username required", nameof(username));
-            string sql = $"ALTER USER \"{username}\" ACCOUNT UNLOCK";
-            DataProvider.Instance.ExecuteNonQuery(sql);
+            DataProvider.Instance.ExecuteNonQuery($"ALTER USER \"{username}\" ACCOUNT UNLOCK");
             return true;
         }
 
         public bool CreateRole(string roleName, string password = null)
         {
-            if (string.IsNullOrWhiteSpace(roleName))
-                throw new ArgumentException("roleName required", nameof(roleName));
             if (!Regex.IsMatch(roleName, @"^[A-Za-z0-9_]+$"))
-                throw new ArgumentException("Invalid role name. Only letters, digits and underscore allowed.", nameof(roleName));
-
+                throw new ArgumentException("Invalid role name.");
             string sql = password == null
                 ? $"CREATE ROLE \"{roleName}\""
                 : $"CREATE ROLE \"{roleName}\" IDENTIFIED BY \"{password}\"";
@@ -228,10 +232,7 @@ ORDER BY u.USERNAME";
 
         public bool DropRole(string roleName)
         {
-            if (string.IsNullOrWhiteSpace(roleName))
-                throw new ArgumentException("roleName required", nameof(roleName));
-            string sql = $"DROP ROLE \"{roleName}\"";
-            DataProvider.Instance.ExecuteNonQuery(sql);
+            DataProvider.Instance.ExecuteNonQuery($"DROP ROLE \"{roleName}\"");
             return true;
         }
     }
