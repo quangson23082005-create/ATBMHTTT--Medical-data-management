@@ -333,5 +333,25 @@ namespace QLBV
         private void ShowError(Exception ex)
             => MessageBox.Show("Loi: " + ex.Message, "Loi",
                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+        private void tabBenhNhan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblFormBNTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblFormBNTitle_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvHSBA_DV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

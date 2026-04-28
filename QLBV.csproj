@@ -148,6 +148,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLBV\Extensions\DataTableExtensions.cs" />
+    <EmbeddedResource Include="fBacSi.resx">
+      <DependentUpon>fBacSi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDieuPhoiVien.resx">
+      <DependentUpon>fDieuPhoiVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>

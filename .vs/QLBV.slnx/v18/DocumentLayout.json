@@ -1,10 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\",
+  "WorkspaceRootPath": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|d:\\year 3\\atbmhttt\\test\\qlbv\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\ynt\\desktop\\atbm\\atbmhttt--medical-data-management\\fdieuphoivien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fdieuphoivien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\ynt\\desktop\\atbm\\atbmhttt--medical-data-management\\fdieuphoivien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fdieuphoivien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\ynt\\desktop\\atbm\\atbmhttt--medical-data-management\\fbenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fbenhnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\ynt\\desktop\\atbm\\atbmhttt--medical-data-management\\fdieuphoivien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fdieuphoivien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\ynt\\desktop\\atbm\\atbmhttt--medical-data-management\\fbacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fbacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\ynt\\desktop\\atbm\\atbmhttt--medical-data-management\\fbacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fbacsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|c:\\users\\ynt\\desktop\\atbm\\atbmhttt--medical-data-management\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CE1464-7043-4EB2-BE0C-7FF467F50084}|QLBV.csproj|solutionrelative:fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fDieuPhoiVien.cs",
+              "DocumentMoniker": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fDieuPhoiVien.cs",
+              "RelativeDocumentMoniker": "fDieuPhoiVien.cs",
+              "ToolTip": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fDieuPhoiVien.cs",
+              "RelativeToolTip": "fDieuPhoiVien.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAUwGEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T00:07:29.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fDieuPhoiVien.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fDieuPhoiVien.Designer.cs",
+              "RelativeDocumentMoniker": "fDieuPhoiVien.Designer.cs",
+              "ToolTip": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fDieuPhoiVien.Designer.cs",
+              "RelativeToolTip": "fDieuPhoiVien.Designer.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAawEcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T23:46:56.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountDAO.cs",
-              "DocumentMoniker": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\AccountDAO.cs",
-              "RelativeDocumentMoniker": "DAO\\AccountDAO.cs",
-              "ToolTip": "D:\\Year 3\\ATBMHTTT\\test\\QLBV\\DAO\\AccountDAO.cs",
-              "RelativeToolTip": "DAO\\AccountDAO.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAuwO4AAAAAAAAAAAAAAA==",
+              "Title": "fDieuPhoiVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fDieuPhoiVien.cs",
+              "RelativeDocumentMoniker": "fDieuPhoiVien.cs",
+              "ToolTip": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fDieuPhoiVien.cs [Design]",
+              "RelativeToolTip": "fDieuPhoiVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T06:45:41.142Z",
+              "WhenOpened": "2026-04-27T23:37:56.401Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fBenhNhan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fBenhNhan.cs",
+              "RelativeDocumentMoniker": "fBenhNhan.cs",
+              "ToolTip": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fBenhNhan.cs [Design]",
+              "RelativeToolTip": "fBenhNhan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T23:37:51.356Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fBacSi.cs",
+              "DocumentMoniker": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fBacSi.cs",
+              "RelativeDocumentMoniker": "fBacSi.cs",
+              "ToolTip": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fBacSi.cs",
+              "RelativeToolTip": "fBacSi.cs",
+              "ViewState": "AgIAAKUBAAAAAAAAAAAawL8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T23:26:33.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fBacSi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fBacSi.cs",
+              "RelativeDocumentMoniker": "fBacSi.cs",
+              "ToolTip": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fBacSi.cs [Design]",
+              "RelativeToolTip": "fBacSi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T20:30:49.501Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fAdmin.cs",
+              "RelativeDocumentMoniker": "fAdmin.cs",
+              "ToolTip": "C:\\Users\\YNT\\Desktop\\atbm\\ATBMHTTT--Medical-data-management\\fAdmin.cs",
+              "RelativeToolTip": "fAdmin.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAAAmwHwBAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T20:18:02.218Z",
               "EditorCaption": ""
             }
           ]
